@@ -1,0 +1,23 @@
+{
+    "name": "krabblabs/hoplite",
+    "description": "ORM for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Gagno",
+            "email": "gjpgagno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "phpunit/phpunit": "^6.3@dev"
+    },
+
+    "autoload": {
+        "psr-4" : {
+            "Krabblabs\\Hoplite\\": "src/Hoplite"
+        }
+    }
+}
